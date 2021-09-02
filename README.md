@@ -5,3 +5,5 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=Bihash07)
 
 ![snake gif](https://github.com/Bihash07/Bihash07/blob/output/github-contribution-grid-snake.gif)
+
+[![GitHub followers](https://img.shields.io/github/followers/AvidCoder101.svg?style=social&label=Followers)](https://github.com/Bihash07?tab=followers)
