@@ -5,5 +5,5 @@
 
 
 ![Bihash07's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bihash07&hide=contribs,prs)
-
- ![Bihash07](https://Bihash07.glitch.me/Bihash07?page_id=page.id)
+ 
+  ![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id)
