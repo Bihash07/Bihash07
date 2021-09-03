@@ -61,7 +61,7 @@ Languages and Tools🛠:
 </a>
   
 <a href="https://github.com/Davekibh">
-  <img align="left" alt="Bihash07's emailaddress" width="22px" src=" https://upload.wikimedia.org/wikipedia/commons/c/ce/Android_Email_8.1_Icon.png" />
+  <img align="left" alt="Bihash07's emailaddress" width="22px" src=" https://cdn3.iconfinder.com/data/icons/social-media-chamfered-corner/154/whatsapp-128.png" />
 </a>
   
 
