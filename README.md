@@ -53,7 +53,7 @@ Languages and Tools🛠:
 </a>  
 
 <a href="https://t.me/Dave_bhandari">
-  <img align="left" alt="Bihash07's Telegram" width="22px" src="https://web.telegram.org/img/logo_share.png" />
+  <img align="left" alt="Bihash07's Telegram" width="22px" src="https://cdn3.iconfinder.com/data/icons/social-media-chamfered-corner/154/whatsapp-128.png" />
 </a>
 
 <a href="https://github.com/Davekibh">
@@ -61,7 +61,7 @@ Languages and Tools🛠:
 </a>
   
 <a href="https://github.com/Davekibh">
-  <img align="left" alt="Bihash07's emailaddress" width="22px" src=" https://cdn3.iconfinder.com/data/icons/social-media-chamfered-corner/154/whatsapp-128.png" />
+  <img align="left" alt="Bihash07's emailaddress" width="22px" src=" " />
 </a>
   
 
