@@ -11,7 +11,7 @@
 
 ---
 
-<p>
+<p align="center">
     <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" alt="Bihash07's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Bihash07&show_icons=true&count_private=true&theme=light" height="192px"/></a>
 </p>
 
