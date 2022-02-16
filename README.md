@@ -63,7 +63,7 @@
 
 <details>
 <summary>Frontend Development 👉</summary>
-<p align="left"> 
+<p align="center"> 
 
   &emsp; 
   <a href="https://www.w3.org/html/" target="_blank"> 
