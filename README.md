@@ -101,10 +101,9 @@
 <p align="center">
   <a href="https://www.facebook.com/shan.bihash.1/"><img src=https://img.icons8.com/clouds/0.5x/facebook-circled.png alt="Facebook"/></a>
   <a href="https://www.linkedin.com/in/bihash-arulampalam-a78a0b21a/"><img src="https://img.icons8.com/clouds/0.5x/linkedin.png" alt="LinkedIn"/></a>
+  <a href="mailto:bihash07012001@gmail.com"><img src="https://img.icons8.com/clouds/0.5x/gmail.png" alt="Gmail"/></a>
   <a href="https://www.instagram.com/bihash_07/"><img src="https://img.icons8.com/clouds/0.5x/instagram.png" alt="Instagram"/></a>
   <a href="https://twitter.com/Bihash_07"><img src="https://img.icons8.com/clouds/0.5x/twitter.png" alt="Twitter"/></a>
-  <a href="mailto:bihash07012001@gmail.com"><img src="https://img.icons8.com/clouds/0.5x/gmail.png" alt="Gmail"/></a>
-  <a href="https://wa.me/+94756988220 "><img src="https://img.icons8.com/clouds/0.5x/whatsapp.png" alt="Whatsapp"/></a>
 </p>
 
 ---
