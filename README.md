@@ -95,11 +95,11 @@
 <summary>Connect with me🤝 :</summary>
 
 <p align="center">
-  <a href="https://www.facebook.com/shan.bihash.1/"><img src=https://img.icons8.com/clouds/0.5x/facebook-circled.png alt="Facebook"/></a>
-  <a href="https://www.linkedin.com/in/bihash-arulampalam-a78a0b21a/"><img src="https://img.icons8.com/clouds/0.5x/linkedin.png" alt="LinkedIn"/></a>
-  <a href="mailto:bihash07012001@gmail.com"><img src="https://img.icons8.com/clouds/0.5x/gmail.png" alt="Gmail"/></a>
-  <a href="https://www.instagram.com/bihash_07/"><img src="https://img.icons8.com/clouds/0.5x/instagram.png" alt="Instagram"/></a>
-  <a href="https://twitter.com/Bihash_07"><img src="https://img.icons8.com/clouds/0.5x/twitter.png" alt="Twitter"/></a>
+  <a href="https://www.facebook.com/shan.bihash.1/"><img src="https://cdn-icons-png.flaticon.com/128/13266/13266170.png" width="50px" height="50px" alt="Facebook"/></a>
+  <a href="https://www.linkedin.com/in/bihash-arulampalam/"><img src="https://cdn-icons-png.flaticon.com/128/13266/13266142.png" width="50px" height="50px" alt="LinkedIn"/></a>
+  <a href="mailto:bihash07012001@gmail.com"><img src="https://cdn-icons-png.flaticon.com/128/2549/2549872.png" width="50px" height="50px" alt="Gmail"/></a>
+  <a href="https://www.instagram.com/bihash_07/"><img src="https://cdn-icons-png.flaticon.com/128/13266/13266180.png" width="50px" height="50px" alt="Instagram"/></a>
+  <a href="https://twitter.com/Bihash_07"><img src="https://cdn-icons-png.flaticon.com/128/14417/14417460.png" width="50px" height="50px" alt="Twitter"/></a>
 </p>
 
 ---
