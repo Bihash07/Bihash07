@@ -72,19 +72,19 @@ def rest(path, token, params=None):
         return None
 
 
-GQL = """
-query($login:String!,$from:DateTime!,$to:DateTime!){
-  user(login:$login){
-    contributionsCollection(from:$from,to:$to){
-      totalCommitContributions totalIssueContributions
-      totalPullRequestContributions totalPullRequestReviewContributions
-      contributionCalendar{ totalContributions
-        weeks{ contributionDays{ date contributionCount weekday } } }
-      commitContributionsByRepository(maxRepositories:100){
-        repository{ nameWithOwner isPrivate } contributions{ totalCount } }
-    }
-  }
-}"""
+# GQL = """
+# query($login:String!,$from:DateTime!,$to:DateTime!){
+#   user(login:$login){
+#     contributionsCollection(from:$from,to:$to){
+#       totalCommitContributions totalIssueContributions
+#       totalPullRequestContributions totalPullRequestReviewContributions
+#       contributionCalendar{ totalContributions
+#         weeks{ contributionDays{ date contributionCount weekday } } }
+#       commitContributionsByRepository(maxRepositories:100){
+#         repository{ nameWithOwner isPrivate } contributions{ totalCount } }
+#     }
+#   }
+# }"""
 
 
 def fetch_real(user, token, year, tz, max_commits):
@@ -97,14 +97,14 @@ def fetch_real(user, token, year, tz, max_commits):
         sys.exit(f"GraphQL error: {res['errors']}")
     cc = res["data"]["user"]["contributionsCollection"]
 
-    days = {}
-    weeks = []
-    for w in cc["contributionCalendar"]["weeks"]:
-        row = []
-        for d in w["contributionDays"]:
-            days[d["date"]] = d["contributionCount"]
-            row.append((d["date"], d["contributionCount"], d["weekday"]))
-        weeks.append(row)
+    # days = {}
+    # weeks = []
+    # for w in cc["contributionCalendar"]["weeks"]:
+    #     row = []
+    #     for d in w["contributionDays"]:
+    #         days[d["date"]] = d["contributionCount"]
+    #         row.append((d["date"], d["contributionCount"], d["weekday"]))
+    #     weeks.append(row)
 
     types = {
         "Commits": cc["totalCommitContributions"],
@@ -356,10 +356,10 @@ def build_svg(user, year, types, weeks, s, mask):
     for i, (v, l, c) in enumerate(tiles):
         o.append(tile(P + i * (tw + G), 86, tw, 80, v, l, c))
 
-    # calendar
-    o.append(card(P, 182, W - 2 * P, 164, "Contribution Calendar",
-                  f"Busiest day: {s['busiest'][1]} contributions on {s['busiest'][0]}", right_sub=True))
-    o.append(heatmap(P + 16, 220, weeks))
+    ## calendar
+    #o.append(card(P, 182, W - 2 * P, 164, "Contribution Calendar",
+    #              f"Busiest day: {s['busiest'][1]} contributions on {s['busiest'][0]}", right_sub=True))
+    #o.append(heatmap(P + 16, 220, weeks))
 
     # LOC row
     langs = [(k, v) for k, v in s["langs"].most_common(6)]
