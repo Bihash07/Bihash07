@@ -94,17 +94,16 @@ E-commerce and creative brand I founded, covering the storefront, operations and
 
 <img src="assets/dev-wrapped.svg" width="100%" alt="My Developer Wrapped: contributions, lines of code, languages, activity by month, day and time" />
 
-<sub>Auto-updated daily from my GitHub activity, private work included.</sub>
+<!-- <sub>Auto-updated daily from my GitHub activity, private work included.</sub> -->
 
-</div>
 
 ## 🤝 Let's Work Together
 
 Have an AI idea, an app to build, or software that needs solid testing?
 
-📧 **[bihash.info@gmail.com](mailto:bihash.info@gmail.com)** · 🌐 **[portfolio](https://bihash.netlify.app/)**
+**[bihash.info@gmail.com](mailto:bihash.info@gmail.com)** | **[portfolio](https://bihash.netlify.app/)**
 
-<div align="center">
+
 
 *Build it smart. Test it well. Ship it reliably.*
 
