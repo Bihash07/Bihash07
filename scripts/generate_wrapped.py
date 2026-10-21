@@ -607,6 +607,8 @@ def build_svg(user,year,types,s,mask):
     W,H,P,G=900,850,12,10
     out=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{FONT}"><rect width="{W}" height="{H}" rx="14" fill="{BG}"/>']
     # out.append(text(P,34,"Developer Analytics",22,TXT,700))
+    out.append(text(P,34, f"{user}'s Developer Wrapped {year} - Auto-generated from my GitHub activity, private work included",
+                    18, MUTED, 500, "right"))
     # out.append(f'<line x1="{P}" y1="48" x2="{W-P}" y2="48" stroke="{TRACK}"/>')
     tw=(W-2*P-4*G)/5
     tiles=[(fmt(s['total']),"Contributions","#3fb950"),(s['active'],"Active days",TXT),(s['streak'],"Longest streak (days)","#3fb950"),(s['gap'],"Longest gap (days)","#ff7b72"),(f"{s['weekend']:.0f}%","Weekend activity","#58a6ff")]
