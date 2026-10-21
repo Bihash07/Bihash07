@@ -601,12 +601,13 @@ def bars(x,y,w,h,labels,values,color,highlight=None,every=1,show_vals=True):
         if i%every==0: out+=text(bx+bw/2,y+h-3,label,9,MUTED,400,"middle")
     return out
 
+
 def build_svg(user,year,types,s,mask):
     # Compact, aligned dashboard: no calendar and no overlapping chart content.
-    W,H,P,G=900,940,24,12
+    W,H,P,G=900,850,12,10
     out=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{FONT}"><rect width="{W}" height="{H}" rx="14" fill="{BG}"/>']
-    out.append(text(P,34,"Developer Analytics",22,TXT,700))
-    out.append(f'<line x1="{P}" y1="48" x2="{W-P}" y2="48" stroke="{TRACK}"/>')
+    # out.append(text(P,34,"Developer Analytics",22,TXT,700))
+    # out.append(f'<line x1="{P}" y1="48" x2="{W-P}" y2="48" stroke="{TRACK}"/>')
     tw=(W-2*P-4*G)/5
     tiles=[(fmt(s['total']),"Contributions","#3fb950"),(s['active'],"Active days",TXT),(s['streak'],"Longest streak (days)","#3fb950"),(s['gap'],"Longest gap (days)","#ff7b72"),(f"{s['weekend']:.0f}%","Weekend activity","#58a6ff")]
     for i,(v,l,c) in enumerate(tiles): out.append(tile(P+i*(tw+G),64,tw,v,l,c))
@@ -633,7 +634,8 @@ def build_svg(user,year,types,s,mask):
     out.append(bars(P+15,y3+42,half-30,137,["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],s['by_wd'],"#58a6ff","#3fb950"))
     x4=P+half+G; out.append(card(x4,y3,half,190,"Contributions by Time of Day","Commit hours, local time"))
     out.append(bars(x4+15,y3+42,half-30,137,[f"{h:02d}" for h in range(24)],s['by_hour'],"#a371f7","#3fb950",every=3,show_vals=False))
-    out.append(text(W/2,900,f"Generated for {escape(user)} · {year}",10,MUTED,400,"middle")); out.append("</svg>")
+    # out.append(text(W/2,800,f"Generated for {escape(user)} · {year}",10,MUTED,400,"middle")); 
+    out.append("</svg>")
     return "".join(out)
 
 def main():
