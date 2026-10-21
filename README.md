@@ -34,7 +34,7 @@ I'm currently available for **freelance projects, contracts and full-time roles*
 | **Test Automation & Software Quality** | Developing automated test suites, testing APIs and making sure applications work reliably across different scenarios. |
 | **Intelligent Systems & Integration** | Connecting AI services, external APIs, databases and software components into practical, end-to-end solutions. |
 
-## ⚡ Tech Stack
+<!-- ## ⚡ Tech Stack
 
 ### AI & Machine Learning
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
@@ -76,7 +76,7 @@ I'm currently available for **freelance projects, contracts and full-time roles*
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
--
+- -->
 
 ## Featured Projects
 
