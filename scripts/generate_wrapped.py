@@ -341,12 +341,13 @@ def heatmap(x, y, weeks):
 # Dashboard
 # --------------------------------------------------------------------------- #
 def build_svg(user, year, types, weeks, s, mask):
-    W, H, P, G = 900, 1110, 24, 12
+    # W, H, P, G = 900, 1110, 24, 12
+    W, H, P, G = 900, 940, 24, 12
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
          f'font-family="{FONT}"><rect width="{W}" height="{H}" rx="14" fill="{BG}"/>']
     # o.append(text(W / 2, 44, f"{user}'s Developer Wrapped {year}", 24, TXT, 700, "middle"))
     o.append(text(W / 2, 66, "Auto-generated from my GitHub activity, private work included",
-                  12, MUTED, 400, "left"))
+                  12, MUTED, 400, "middle"))
 
     # row 1: tiles
     tw = (W - 2 * P - 4 * G) / 5
