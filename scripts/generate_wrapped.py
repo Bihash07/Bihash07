@@ -604,7 +604,7 @@ def bars(x,y,w,h,labels,values,color,highlight=None,every=1,show_vals=True):
 
 def build_svg(user,year,types,s,mask):
     # Compact, aligned dashboard: no calendar and no overlapping chart content.
-    W,H,P,G=900,850,12,10
+    W,H,P,G=900,850,2,10
     out=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{FONT}"><rect width="{W}" height="{H}" rx="14" fill="{BG}"/>']
     # out.append(text(P,34,"Developer Analytics",22,TXT,700))
     out.append(text(P,34, f"{user}'s Developer Wrapped {year} - Auto-generated from my GitHub activity, private work included",
